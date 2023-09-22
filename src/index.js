@@ -1,3 +1,10 @@
+/**
+ * Возвращает true или false в зависимости от того правильная ли последоватедбность скобок приходит в качестве входного параметра
+ *
+ * @param {string} str Исходная строка.
+ * @param {array} bracketsConfig Исходная строка.
+ * @return {boolean} Возвращает true или false в зависимости от того правильная ли последоватедбность скобок приходит в качестве входного параметра.
+ */
 module.exports = function check(str, bracketsConfig) {
   let stack = [];
   let brackets = {};
